@@ -1,0 +1,8 @@
+int main()
+{
+                // the second parameter of to_string() should be one of
+                // std::hex, std::dec or std::oct
+    std::cout<<to_string<long>(123456, std::hex)<<std::endl;
+    std::cout<<to_string<long>(123456, std::oct)<<std::endl;
+                return 0;
+}
